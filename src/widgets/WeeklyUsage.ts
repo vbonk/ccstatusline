@@ -56,7 +56,7 @@ export class WeeklyUsageWidget implements Widget {
             const renderedPercent = inverted ? 100 - previewPercent : previewPercent;
 
             if (isUsageProgressMode(displayMode)) {
-                const width = getUsageProgressBarWidth(displayMode);
+                const width = getUsageProgressBarWidth(displayMode, item);
                 const progressDisplay = `${makeUsageProgressBar(renderedPercent, width)} ${renderedPercent.toFixed(1)}%`;
                 return formatRawOrLabeledValue(item, 'Weekly: ', progressDisplay);
             }
@@ -72,7 +72,7 @@ export class WeeklyUsageWidget implements Widget {
 
         const percent = Math.max(0, Math.min(100, data.weeklyUsage));
         if (isUsageProgressMode(displayMode)) {
-            const width = getUsageProgressBarWidth(displayMode);
+            const width = getUsageProgressBarWidth(displayMode, item);
             const renderedPercent = inverted ? 100 - percent : percent;
             const progressDisplay = `${makeUsageProgressBar(renderedPercent, width)} ${renderedPercent.toFixed(1)}%`;
             return formatRawOrLabeledValue(item, 'Weekly: ', progressDisplay);

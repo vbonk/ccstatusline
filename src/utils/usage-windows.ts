@@ -95,7 +95,7 @@ export function formatUsageDuration(durationMs: number, compact = false): string
     const elapsedMinutes = Math.floor((clampedMs % (1000 * 60 * 60)) / (1000 * 60));
 
     if (compact) {
-        return elapsedMinutes === 0 ? `${elapsedHours}h` : `${elapsedHours}h${elapsedMinutes}m`;
+        return elapsedMinutes === 0 ? `${elapsedHours}h` : `${elapsedHours}h:${elapsedMinutes}m`;
     }
 
     if (elapsedMinutes === 0) {

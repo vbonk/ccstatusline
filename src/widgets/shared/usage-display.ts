@@ -20,7 +20,12 @@ export function isUsageProgressMode(mode: UsageDisplayMode): boolean {
     return mode === 'progress' || mode === 'progress-short';
 }
 
-export function getUsageProgressBarWidth(mode: UsageDisplayMode): number {
+export function getUsageProgressBarWidth(mode: UsageDisplayMode, item?: WidgetItem): number {
+    if (item?.metadata?.barWidth) {
+        const custom = parseInt(item.metadata.barWidth, 10);
+        if (Number.isFinite(custom) && custom >= 4 && custom <= 64)
+            return custom;
+    }
     return mode === 'progress' ? 32 : 16;
 }
 

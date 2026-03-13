@@ -19,6 +19,15 @@ function getDisplayMode(item: WidgetItem): DisplayMode {
     return item.metadata?.display === 'progress' ? 'progress' : 'progress-short';
 }
 
+function getBarWidth(mode: DisplayMode, item: WidgetItem): number {
+    if (item.metadata?.barWidth) {
+        const custom = parseInt(item.metadata.barWidth, 10);
+        if (Number.isFinite(custom) && custom >= 4 && custom <= 64)
+            return custom;
+    }
+    return mode === 'progress' ? 32 : 16;
+}
+
 export class ContextBarWidget implements Widget {
     getDefaultColor(): string { return 'blue'; }
     getDescription(): string { return 'Shows context usage as a progress bar'; }
@@ -58,7 +67,7 @@ export class ContextBarWidget implements Widget {
 
     render(item: WidgetItem, context: RenderContext, settings: Settings): string | null {
         const displayMode = getDisplayMode(item);
-        const barWidth = displayMode === 'progress' ? 32 : 16;
+        const barWidth = getBarWidth(displayMode, item);
 
         if (context.isPreview) {
             const previewDisplay = `${makeUsageProgressBar(25, barWidth)} 50k/200k (25%)`;

@@ -143,7 +143,7 @@ describe('usage window helpers', () => {
     it('formats duration in compact style', () => {
         expect(formatUsageDuration(0, true)).toBe('0h');
         expect(formatUsageDuration(3 * 60 * 60 * 1000, true)).toBe('3h');
-        expect(formatUsageDuration(3.5 * 60 * 60 * 1000, true)).toBe('3h30m');
-        expect(formatUsageDuration(4 * 60 * 60 * 1000 + 5 * 60 * 1000, true)).toBe('4h5m');
+        expect(formatUsageDuration(3.5 * 60 * 60 * 1000, true)).toBe('3h:30m');
+        expect(formatUsageDuration(4 * 60 * 60 * 1000 + 5 * 60 * 1000, true)).toBe('4h:5m');
     });
 });
