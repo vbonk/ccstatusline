@@ -28,6 +28,10 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .cache
 *.tsbuildinfo
 
+# Session state (ephemeral)
+.claude/SESSION_STATE.json
+.claude/HANDOFF.md
+
 # IntelliJ based IDEs
 .idea
 
