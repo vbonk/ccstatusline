@@ -1,4 +1,6 @@
-# CLAUDE.md
+# CLAUDE.md / AGENTS.md
+
+> Cross-agent instructions for AI coding assistants. This file is recognized by Claude Code (via CLAUDE.md symlink), Cursor, GitHub Copilot, and other AI tools. For Copilot-specific instructions, see `.github/copilot-instructions.md`.
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
@@ -149,3 +151,38 @@ Default to using Bun instead of Node.js:
   - Run tests with `bun test` or `bun test --watch` for watch mode
   - Test configuration: vitest.config.ts
   - Manual testing also available via piped input and TUI interaction
+
+## Task Management
+
+This project uses GitHub Issues with a structured label taxonomy for task tracking:
+
+### Label Categories
+
+| Category | Labels | Purpose |
+|----------|--------|---------|
+| **Status** | `status:planning`, `status:in-progress`, `status:done`, `status:blocked` | Drives workflow automation |
+| **Owner** | `owner:human`, `owner:agent`, `owner:external` | Who completes the work |
+| **Priority** | `priority:high`, `priority:medium`, `priority:low` | Urgency classification |
+| **Type** | `bug`, `enhancement`, `task`, `roadmap`, `idea`, `decision`, `documentation`, `dependencies`, `ci` | Work classification |
+
+### Helper Scripts
+
+- `scripts/labels.sh` — Create/update all 19 core labels (idempotent)
+- `scripts/my-tasks.sh [filter]` — Filtered issue views (mine, agent, high, blocked, all)
+- `scripts/close-issue.sh <number> [comment]` — Close with `status:done` label
+
+### Issue Templates
+
+- **Bug Report** — Includes mode (piped/TUI), OS, terminal, version fields
+- **Feature Request** — Categorized by widget type, with problem/solution framing
+- **Agent Task** — Structured for AI agents with files-to-read-first and acceptance criteria
+
+## Cross-References
+
+| File | Purpose |
+|------|---------|
+| `AGENTS.md` (this file) | Primary AI agent instructions |
+| `CLAUDE.md` | Symlink to AGENTS.md (Claude Code reads this) |
+| `.github/copilot-instructions.md` | GitHub Copilot-specific guidance |
+| `CONTRIBUTING.md` | Human contributor guide |
+| `SECURITY.md` | Vulnerability reporting policy |

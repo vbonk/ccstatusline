@@ -20,6 +20,8 @@
 [![Node.js Version](https://img.shields.io/node/v/ccstatusline.svg)](https://nodejs.org)
 [![install size](https://packagephobia.com/badge?p=ccstatusline)](https://packagephobia.com/result?p=ccstatusline)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sirmalloc/ccstatusline/graphs/commit-activity)
+[![CI](https://github.com/sirmalloc/ccstatusline/actions/workflows/ci.yml/badge.svg)](https://github.com/sirmalloc/ccstatusline/actions/workflows/ci.yml)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
 
 [![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge.svg)](https://github.com/hesreallyhim/awesome-claude-code)
 [![ClaudeLog - A comprehensive knowledge base for Claude](https://claudelog.com/img/claude_log_badge.svg)](https://claudelog.com/)
@@ -39,6 +41,7 @@
 - [API Documentation](#-api-documentation)
 - [Development](#️-development)
 - [Contributing](#-contributing)
+- [Security](#-security)
 - [License](#-license)
 - [Related Projects](#-related-projects)
 
@@ -743,13 +746,19 @@ ccstatusline/
 ```
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details on:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+- Setting up the development environment
+- Code style and linting requirements
+- Creating new widgets
+- Commit message conventions
+- Pull request process
+
+---
+
+## 🔒 Security
+
+For reporting security vulnerabilities, please see our [Security Policy](SECURITY.md). Do not open public issues for security concerns.
 
 ---
 
