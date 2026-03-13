@@ -1,0 +1,38 @@
+{
+  "hook_event_name": "Status",
+  "session_id": "halbert-test-001",
+  "transcript_path": "/tmp/test-transcript.jsonl",
+  "cwd": "/home/claude-runner/projects/ccstatusline",
+  "model": {
+    "id": "claude-opus-4-6",
+    "display_name": "Opus"
+  },
+  "workspace": {
+    "current_dir": "/home/claude-runner/projects/ccstatusline",
+    "project_dir": "/home/claude-runner/projects/ccstatusline"
+  },
+  "version": "1.0.80",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 3.42,
+    "total_duration_ms": 1245000,
+    "total_api_duration_ms": 89000,
+    "total_lines_added": 312,
+    "total_lines_removed": 47
+  },
+  "context_window": {
+    "context_window_size": 200000,
+    "total_input_tokens": 85000,
+    "total_output_tokens": 12000,
+    "current_usage": {
+      "input_tokens": 45000,
+      "output_tokens": 8000,
+      "cache_creation_input_tokens": 15000,
+      "cache_read_input_tokens": 20000
+    },
+    "used_percentage": 44,
+    "remaining_percentage": 56
+  }
+}
