@@ -101,11 +101,11 @@ Use [Conventional Commits](https://www.conventionalcommits.org/):
 
 ## Reporting Bugs
 
-Use the [Bug Report](https://github.com/sirmalloc/ccstatusline/issues/new?template=bug.yml) issue template. Include your OS, terminal, ccstatusline version, and whether the issue occurs in piped mode, TUI mode, or both.
+Use the [Bug Report](https://github.com/vbonk/ccstatusline/issues/new?template=bug.yml) issue template. Include your OS, terminal, ccstatusline version, and whether the issue occurs in piped mode, TUI mode, or both.
 
 ## Suggesting Features
 
-Use the [Feature Request](https://github.com/sirmalloc/ccstatusline/issues/new?template=feature.yml) issue template. Describe the problem you're solving, not just the solution you want.
+Use the [Feature Request](https://github.com/vbonk/ccstatusline/issues/new?template=feature.yml) issue template. Describe the problem you're solving, not just the solution you want.
 
 ## Security
 

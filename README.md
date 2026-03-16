@@ -16,16 +16,18 @@
 
 [![npm version](https://img.shields.io/npm/v/ccstatusline.svg)](https://www.npmjs.com/package/ccstatusline)
 [![npm downloads](https://img.shields.io/npm/dm/ccstatusline.svg)](https://www.npmjs.com/package/ccstatusline)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/sirmalloc/ccstatusline/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/vbonk/ccstatusline/blob/main/LICENSE)
 [![Node.js Version](https://img.shields.io/node/v/ccstatusline.svg)](https://nodejs.org)
 [![install size](https://packagephobia.com/badge?p=ccstatusline)](https://packagephobia.com/result?p=ccstatusline)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sirmalloc/ccstatusline/graphs/commit-activity)
-[![CI](https://github.com/sirmalloc/ccstatusline/actions/workflows/ci.yml/badge.svg)](https://github.com/sirmalloc/ccstatusline/actions/workflows/ci.yml)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/vbonk/ccstatusline/graphs/commit-activity)
+[![CI](https://github.com/vbonk/ccstatusline/actions/workflows/ci.yml/badge.svg)](https://github.com/vbonk/ccstatusline/actions/workflows/ci.yml)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
+[![Based on](https://img.shields.io/badge/based%20on-sirmalloc%2Fccstatusline-purple)](https://github.com/sirmalloc/ccstatusline)
 
 [![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge.svg)](https://github.com/hesreallyhim/awesome-claude-code)
 [![ClaudeLog - A comprehensive knowledge base for Claude](https://claudelog.com/img/claude_log_badge.svg)](https://claudelog.com/)
 
+> This is [vbonk](https://github.com/vbonk)'s customized build of ccstatusline, based on the original by [sirmalloc](https://github.com/sirmalloc/ccstatusline).
 
 ![Demo](https://raw.githubusercontent.com/sirmalloc/ccstatusline/main/screenshots/demo.gif)
 
@@ -661,7 +663,7 @@ The documentation will be generated in the `docs/` directory and can be viewed b
 
 ```bash
 # Clone the repository
-git clone https://github.com/sirmalloc/ccstatusline.git
+git clone https://github.com/vbonk/ccstatusline.git
 cd ccstatusline
 
 # Install dependencies
@@ -776,11 +778,11 @@ If ccstatusline is useful to you, consider buying me a coffee:
 
 ---
 
-## 👤 Author
+## 👤 Original Author
 
-**Matthew Breedlove**
+**Matthew Breedlove** — [@sirmalloc](https://github.com/sirmalloc)
 
-- GitHub: [@sirmalloc](https://github.com/sirmalloc)
+This repository is maintained by [@vbonk](https://github.com/vbonk), based on the [original project](https://github.com/sirmalloc/ccstatusline).
 
 ---
 
@@ -801,35 +803,25 @@ If ccstatusline is useful to you, consider buying me a coffee:
 
 ## Star History
 
-<a href="https://www.star-history.com/#sirmalloc/ccstatusline&Timeline">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sirmalloc/ccstatusline&type=Timeline&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sirmalloc/ccstatusline&type=Timeline" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sirmalloc/ccstatusline&type=Timeline" />
- </picture>
-</a>
-
 <div align="center">
 
 ### 🌟 Show Your Support
 
-Give a ⭐ if this project helped you!
+Give a ⭐ to the [original project](https://github.com/sirmalloc/ccstatusline) if ccstatusline helped you!
 
-[![GitHub stars](https://img.shields.io/github/stars/sirmalloc/ccstatusline?style=social)](https://github.com/sirmalloc/ccstatusline/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/sirmalloc/ccstatusline?style=social)](https://github.com/sirmalloc/ccstatusline/network/members)
-[![GitHub watchers](https://img.shields.io/github/watchers/sirmalloc/ccstatusline?style=social)](https://github.com/sirmalloc/ccstatusline/watchers)
+[![GitHub stars](https://img.shields.io/github/stars/vbonk/ccstatusline?style=social)](https://github.com/vbonk/ccstatusline/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/vbonk/ccstatusline?style=social)](https://github.com/vbonk/ccstatusline/network/members)
 
 [![npm version](https://img.shields.io/npm/v/ccstatusline.svg)](https://www.npmjs.com/package/ccstatusline)
 [![npm downloads](https://img.shields.io/npm/dm/ccstatusline.svg)](https://www.npmjs.com/package/ccstatusline)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/sirmalloc/ccstatusline/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/vbonk/ccstatusline/blob/main/LICENSE)
 [![Made with Bun](https://img.shields.io/badge/Made%20with-Bun-000000.svg?logo=bun)](https://bun.sh)
 
-[![Issues](https://img.shields.io/github/issues/sirmalloc/ccstatusline)](https://github.com/sirmalloc/ccstatusline/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/sirmalloc/ccstatusline)](https://github.com/sirmalloc/ccstatusline/pulls)
-[![Contributors](https://img.shields.io/github/contributors/sirmalloc/ccstatusline)](https://github.com/sirmalloc/ccstatusline/graphs/contributors)
+[![Issues](https://img.shields.io/github/issues/vbonk/ccstatusline)](https://github.com/vbonk/ccstatusline/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/vbonk/ccstatusline)](https://github.com/vbonk/ccstatusline/pulls)
 
 ### 💬 Connect
 
-[Report Bug](https://github.com/sirmalloc/ccstatusline/issues) · [Request Feature](https://github.com/sirmalloc/ccstatusline/issues) · [Discussions](https://github.com/sirmalloc/ccstatusline/discussions)
+[Report Bug](https://github.com/vbonk/ccstatusline/issues) · [Request Feature](https://github.com/vbonk/ccstatusline/issues) · [Upstream Project](https://github.com/sirmalloc/ccstatusline)
 
 </div>

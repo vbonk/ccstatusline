@@ -56,7 +56,7 @@ import {
     type MainMenuOption
 } from './components';
 
-const GITHUB_REPO_URL = 'https://github.com/sirmalloc/ccstatusline';
+const GITHUB_REPO_URL = 'https://github.com/vbonk/ccstatusline';
 
 interface FlashMessage {
     text: string;
